@@ -1,0 +1,106 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#img-div {
+    padding: 5%;
+}
+
+#home-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+#about-div h1 {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#info-link {
+    text-decoration: none;
+    color: rgb(180, 8, 8);
+    font-weight: bold;
+}
+
+#info-link:hover {
+    color: rgb(106,4,4);
+    font-weight: bolder;
+}
+
+#donate-btn {
+    margin-top: 5px;
+    padding: 10px;
+    border: unset;
+    border-radius: 15px;
+    color: #e8e8e8;
+    z-index: 1;
+    background: black;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+}
+
+#donate-btn a {
+    text-decoration: none;
+    color: #e8e8e8;
+}
+
+#donate-btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background: rgb(106,4,4);
+    background: linear-gradient(75deg, rgba(106,4,4,1) 0%, rgba(140,9,9,1) 37%, rgba(182,17,17,1) 69%, rgba(255,0,0,1) 100%);
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+}
+
+#donate-btn:hover::before {
+    width: 100%;
+}
+
+#results {
+    margin: 5px 60px 20px 60px;
+    border-radius: 25px;
+    background-color: black;
+    /*Add background for results here*/
+}
+
+#prev-result {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+#prev-result, #next-match {
+    margin-top: 30px;
+    color: white;
+}
+
+#mu-logo {
+    margin-right: 10px;
+}
+
+.match-logo {
+    height: 5vh;
+    width: auto;
+}
+
+@media (max-width: 850px) {
+    #imgCarousel {
+        height: 0;
+        width: 0;
+        display: none;
+    }
+}

@@ -1,0 +1,47 @@
+#nav-buffer {
+    height: 7vh;
+    background-color: black;
+}
+
+#navbar, #footer {
+    background: rgb(106,4,4);
+    background: linear-gradient(75deg, rgba(106,4,4,1) 0%, rgba(140,9,9,1) 37%, rgba(182,17,17,1) 69%, rgba(255,0,0,1) 100%);;
+}
+
+#nav-img {
+    height: 12vh;
+    width: auto;
+}
+
+#navbar-items {
+	padding-left: 5%;
+}
+
+.nav-item {
+    font-size: large;
+}
+
+#footer {
+    color: white;
+}
+
+#footer h3 {
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+#contacts {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-img {
+    height: 20px;
+    width: auto;
+    color: white;
+}
