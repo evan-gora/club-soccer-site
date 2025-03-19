@@ -2,15 +2,26 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #img-div {
     padding: 5%;
+    flex-direction: column;
 }
 
 #home-img {
     display: block;
+    flex-direction: column;
     width: 100%;
     height: auto;
     border-radius: 25px;
+}
+
+#about-div {
+    flex-direction: column;
 }
 
 #about-div h1 {
@@ -97,10 +108,14 @@ body {
     width: auto;
 }
 
-@media (max-width: 850px) {
-    #imgCarousel {
-        height: 0;
-        width: 0;
-        display: none;
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stacks columns vertically */
+        align-items: center; /* Centers content */
+    }
+
+    #img-div, #about-div {
+        width: 100%; /* Makes each column take full width */
+        text-align: center; /* Optional: Centers text */
     }
 }

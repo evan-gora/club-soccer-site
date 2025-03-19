@@ -8,13 +8,13 @@
     background: linear-gradient(75deg, rgba(106,4,4,1) 0%, rgba(140,9,9,1) 37%, rgba(182,17,17,1) 69%, rgba(255,0,0,1) 100%);;
 }
 
+#nav-div {
+    width: 100%;
+}
+
 #nav-img {
     height: 12vh;
     width: auto;
-}
-
-#navbar-items {
-	padding-left: 5%;
 }
 
 .nav-item {
