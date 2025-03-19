@@ -38,40 +38,65 @@
         </div>
     </nav>
 
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="accordian-one">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-one" aria-expanded="true" aria-controls="collapse-one">
-              Spring 2025
-            </button>
-          </h2>
-          <div id="collapse-one" class="accordion-collapse collapse show" aria-labelledby="collapse-one">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
+    <div id="curr-schedule">
+        <h1 class="text-center">Spring 2025 Schedule</h1>
+        <div id="tbl-div">
+            <table class="schedule-tbl">
+                <thead class="schedule-head">
+                    <tr>
+                        <th>Date</th>
+                        <th>Home</th>
+                        <th>Score</th>
+                        <th>Away</th>
+                    </tr>
+                </thead>
+                <tbody class="schedule-bdy">
+                    <tr>
+                        <td>March 8</td>
+                        <td>Miami</td>
+                        <td>3 - 2</td>
+                        <td>Kentucky</td>
+                    </tr>
+                    <tr>
+                        <td>April 4</td>
+                        <td>Louisville</td>
+                        <td>TBD</td>
+                        <td>Miami</td>
+                    </tr>
+                    <tr>
+                        <td>April 11</td>
+                        <td>Miami</td>
+                        <td>TBD</td>
+                        <td>Ball State</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+    </div>
+
+    <h3 class="text-center" id="prev-header">Previous Schedules</h3>
+    <div class="accordion" id="prev-accordian">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          <h2 class="accordion-header" id="fall24-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fall24-body" aria-expanded="false" aria-controls="fall24-body">
               Fall 2024
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div id="fall24-body" class="accordion-collapse collapse" aria-labelledby="fall24-body">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>This is the second item's accordion body.</strong>
             </div>
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          <h2 class="accordion-header" id="spring24-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#spring24-body" aria-expanded="false" aria-controls="spring24-body">
               Spring 2024
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div id="spring24-body" class="accordion-collapse collapse" aria-labelledby="spring24-body">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <strong>This is the third item's accordion body.</strong>
             </div>
           </div>
         </div>

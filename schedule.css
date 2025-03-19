@@ -1,0 +1,17 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#curr-schedule {
+    padding-top: 2.5%;
+}
+
+#tbl-div {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.schedule-tbl {
+    margin: auto;
+}
