@@ -10,8 +10,8 @@
     <div id="nav-buffer"></div>
     <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/imgs/soccerlogo.png" alt="club-logo" id="nav-img">
+            <a class="navbar-brand" href="/home.html">
+                <img src="/imgs/logos/miami-logo.svg" alt="club-logo" id="nav-img">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -56,20 +56,45 @@
         </div>
     </div>
 
-    <div id="results" class="row align items center">
+    <div id="results" class="row">
         <div id="prev-result" class="col-6">
-            <h3 class="text-center">Previous Result</h3>
-            <p class="text-center">
-                <img src="./imgs/soccerlogo.png" alt="mu-logo" class="match-logo" id="mu-logo"> Miami 3-2 Kentucky <img src="./imgs/UK-logo.svg" alt="uk-logo" class="match-logo">
-            </p>
+            <h3 class="match-hdr">Previous Result</h3>
+            <div class="match-row">
+                <div class="col-1 home-img">
+                    <img class="team-logo" src="./imgs/logos/miami-logo.svg" alt="Miami Logo">
+                </div>
+                <div class="col-2 team-name">
+                    <p>Miami</p>
+                </div>
+                <div class="col-1 match-score">
+                    <p>3 - 2</p>
+                </div>
+                <div class="col-2 team-name">
+                    <p>Kentucky</p>
+                </div>
+                <div class="col-1 away-img">
+                    <img class="team-logo" src="./imgs/logos/UK-logo.svg" alt="UK Logo">
+                </div>
+            </div>
         </div>
         <div id="next-match" class="col-6">
-            <h3 class="text-center">Upcoming Match</h3>
-            <p class="text-center">
-                <img src="./imgs/lville-logo.png" alt="louisville-logo" class="match-logo"> Louisville vs. Miami <img src="./imgs/soccerlogo.png" alt="miami-logo" class="match-logo">
-            </p>
-            <div>
-                <p class="text-center">April 4th @ 7:00pm</p>
+            <h3 class="match-hdr">Upcoming Match</h3>
+            <div class="match-row">
+                <div class="col-1 home-img">
+                    <img class="team-logo" src="./imgs/logos/miami-logo.svg" alt="Miami Logo">
+                </div>
+                <div class="col-2 team-name">
+                    <p>Miami</p>
+                </div>
+                <div class="col-1 match-score">
+                    <p>vs</p>
+                </div>
+                <div class="col-2 team-name">
+                    <p>Louisville</p>
+                </div>
+                <div class="col-1 away-img">
+                    <img class="team-logo" src="./imgs/logos/lville-logo.svg" alt="UK Logo">
+                </div>
             </div>
         </div>
     </div>
@@ -78,7 +103,7 @@
         <h3> Contact Us </h3>
         <ul id="contacts">
             <li class="contact-item">
-                <img class="contact-img" src="./imgs/mail.svg" alt="email-logo"> <a target="_blank" href="mailto:goraej@miamioh.edu">goraej@miamioh.edu</a>
+                <img class="contact-img" src="./imgs/mail.svg" alt="email-logo"> <a target="_blank" href="mailto:mensclubsoccer@miamioh.edu">mensclubsoccer@miamioh.edu</a>
             </li>
             <li class="contact-item">
                 <img class="contact-img" src="./imgs/insta.svg" alt="insta-logo"> <a target="_blank" href="https://www.instagram.com/miamimenssoccer/">miamimenssoccer</a>
